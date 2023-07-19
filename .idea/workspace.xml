@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d39b4e6-7b3e-4687-8161-eb5e284e6d69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/AdminUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Employe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Horaire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Temoignage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Utilisateur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Visiteur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Visiteur2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Voiture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/horaires/createHoraire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/horaires/deleteHoraire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/horaires/updateHoraires.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/loginOut.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/loginUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/createService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/deleteService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64af0db4839f0service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64af128911986service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64af1413dbae7service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64af18eb49447service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64af32584cffcservice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64af5c0f876e8service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b05a2022071service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b3d3434f694service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b3d35f5faadservice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b3d3bac7e99service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b3d3d95e97cservice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b3d405d4d98service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b3d47baf735service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b465f135c0dservice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b466097ba83service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b4662b9507aservice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b46643ae059service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b4665ac39e3service.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b57eac19bc6service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/images/64b867bcca5aaservice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/service/updateService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/temoignage/createAvis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/temoignage/deleteTemoignage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/temoignage/updateTemoignage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/user/createUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/user/deleteUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/user/updateUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/visiteur/createCommentaire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/visiteur/createContact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/visiteur/q_search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/visiteur/q_search2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/addImagesVoiture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/createVoiture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/deleteVoiture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64af40ad6db5avoiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64af42421fb40voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64af42421fd9avoiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b05c7ddcfc8voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b05cc62ba5dvoiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b05cc62bd19voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b05cc62c049voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b3ea56b2321voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b3ea73c1249voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b3ecf5dab09voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b3eea465724voiture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b3efa6b0281voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b40c8f2da75voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b42e383c742voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b42e383c9b5voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b45fdb3d020voiture.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b45fdb3d6b0voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b45fdb3df86voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b45ff782407voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b45ff782949voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b45ff782eecvoiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b5653132d7fvoiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b56552c5429voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b56552c5de9voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b56552c65fdvoiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b565c516d87voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b565f25c4e0voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b565f25c6cevoiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b565f25c89bvoiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b565f25ca42voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b581bd32c04voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b581e945abfvoiture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b581e94823bvoiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b581e948fb2voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b58230aec91voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b5824857e98voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b5824858880voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b5824859499voiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/images/64b868fb558davoiture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/traitement/voiture/updateVoiture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/css/bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/css/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/css/dataTables/dataTables.responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/css/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/css/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/css/startmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/dataTables/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/dataTables/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/morris-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/js/startmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/pages/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/pages/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/pages/employe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/pages/horaires.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/pages/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/pages/menu/menu-admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/pages/menu/menu-employe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/pages/service.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/app/views/pages/voiture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/Crud.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/DataBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/ImageUploader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/create_bdd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/install/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/affiche.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/banniere.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/galerie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/000000008781832.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/0entretien.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/226_Graphite-Grey_222328-removebg-preview (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/226_Graphite-Grey_222328-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/226_Graphite-Grey_222328.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/350x180 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/350x180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/400x300 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/400x400 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/400x400 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/Black n White Luxury  Rent Car Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/Black_n_White_Luxury__Rent_Car_Logo-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/Logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/Mercedes-Benz-EQS-Electric-Interieur-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/Professionnel-lavage-auto-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/banniere.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/bmw-i8_arriere-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/depositphotos_65556863-stock-photo-smiling-mechanic-writing-on-clipboard-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/depositphotos_65556863-stock-photo-smiling-mechanic-writing-on-clipboard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/entretien.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon_io/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon_io/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon_io/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon_io/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon_io/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon_io/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon_io/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/fisker-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/gla-amg-line-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/lavage.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/logovoiture2-transformed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/logovoiture2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/monde-economique-tesla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/parrot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/photo-moteur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/plaquettes-de-freins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/raparation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/reparation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/v._PARROT-removebg-preview (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/vente.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/galerie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/galerie3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php8.0.13\php.exe" />
+  <component name="ProjectId" id="2SfXorsNW4PS15tTWqpyxWsyUJS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/wamp64/www/projet-garage",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d39b4e6-7b3e-4687-8161-eb5e284e6d69" name="Changes" comment="" />
+      <created>1689538787092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689538787092</updated>
+      <workItem from="1689538788243" duration="11525000" />
+      <workItem from="1689631644221" duration="1003000" />
+      <workItem from="1689769717109" duration="8371000" />
+      <workItem from="1689803400423" duration="4736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

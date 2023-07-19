@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création de base de données</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Création de base de données</h1>
+        <form id="create-db-form">
+            <div class="form-group">
+                <label for="host">Host * </label>
+                <input type="text" class="form-control" id="host" name="host" value="localhost" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Username * </label>
+                <input type="text" class="form-control" id="username" name="username" value="root" required>
+                <small class="form-text text-danger">La valeur par défaut est 'root'. Si vous souhaitez créer un nouvel utilisateur, assurez-vous d'avoir les privilèges nécessaires.</small>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password">
+                <small class="form-text text-danger">La valeur par défaut est vide. Assurez-vous de définir un mot de passe si nécessaire.</small>
+            </div>
+            <div class="form-group">
+                <label for="dbname">Nom de la base de données</label>
+                <input type="text" class="form-control" id="dbname" name="dbname" placeholder="Entrer le nom de la base de donnée" required>
+            </div>
+            <div id="response-container" class="mt-3"></div>
+            <br>
+            <button type="button" class="btn btn-primary" id="create-db-btn">Créer la base de données</button>
+
+            
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        
+        $(document).ready(function() {
+
+            
+         $('#dbname').on('input', function() {
+        // Récupérer la valeur du champ Dbname
+        var dbname = $(this).val();
+
+        // Vérifier le format du champ Dbname
+        var dbnameRegex = /^[A-Za-z0-9_]+$/;
+        if (!dbname.match(dbnameRegex)) {
+            $(this).addClass('is-invalid');
+        } else {
+            $(this).removeClass('is-invalid');
+        }
+    });
+
+    $('#username').on('input', function() {
+        // Récupérer la valeur du champ Dbname
+        var dbname = $(this).val();
+
+        // Vérifier le format du champ Dbname
+        var dbnameRegex = /^[A-Za-z0-9_]+$/;
+        if (!dbname.match(dbnameRegex)) {
+            $(this).addClass('is-invalid');
+        } else {
+            $(this).removeClass('is-invalid');
+        }
+    });
+
+    $('#create-db-btn').click(function() {
+        // Récupérer les valeurs du formulaire
+        var host = $('#host').val();
+        var username = $('#username').val();
+        var password = $('#password').val();
+        var dbname = $('#dbname').val();
+
+        // Vérifier si les champs requis sont vides
+        if (host === '' || username === '' || dbname === '') {
+            alert('Veuillez remplir tous les champs requis.');
+            return;
+        }
+        
+         // Vérifier le format du champ Dbname
+         var dbnameRegex = /^[A-Za-z0-9_]+$/;
+        if (!dbname.match(dbnameRegex) || !username.match(dbnameRegex)) {
+            alert('Le champ Dbname doit contenir uniquement des lettres, des chiffres et le caractère souligné (_).');
+            return;
+        }
+
+        // Créer l'objet de données à envoyer en POST
+        var data = {
+            host: host,
+            username: username,
+            password: password,
+            dbname: dbname
+        };
+
+        // Envoyer la requête Ajax
+        $.ajax({
+            url: '../controllers/create_bdd.php',
+            type: 'POST',
+            data: data,
+            beforeSend: function() {
+                // Afficher un message ou une icône de chargement pendant l'exécution de la requête
+                $('#create-db-form').append('<p class="text-muted">Création en cours...</p>');
+            },
+            success: function(response) {
+                // Traiter la réponse de la requête
+                console.log(response); 
+                // Ajouter le bouton au div de la réponse 
+                $('#response-container').html(response);
+                // Ajouter ici votre code pour afficher une notification ou effectuer d'autres actions après la création de la base de données
+            },
+            error: function(xhr, status, error) {
+                // Traiter les erreurs de la requête
+                console.log(xhr.responseText);
+            },
+            complete: function() {
+                // Supprimer le message ou l'icône de chargement une fois que la requête est terminée
+                $('#create-db-form').find('.text-muted').remove();
+            }
+        });
+    });
+});
+
+    </script>
+</body>
+</html>
